@@ -36,7 +36,7 @@ jobs:
         working-directory: ./slidev
 
       - name: Build slides
-        run: pnpm build --base /2026-fwdays-rules-commands-skills-practice-right/
+        run: pnpm build --base /${{ github.event.repository.name }}/
         working-directory: ./slidev
 
       - name: Setup Pages
