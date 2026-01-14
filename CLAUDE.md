@@ -94,6 +94,20 @@ slidev/
 
 ## Deployment
 
+### GitHub Pages (рекомендовано)
+
+Автоматичний деплой через GitHub Actions:
+
+1. Увімкни GitHub Pages в налаштуваннях репозиторію:
+   - Settings → Pages → Source: **GitHub Actions**
+2. Push в `main` branch запускає автоматичний деплой
+3. Презентація доступна за адресою:
+   `https://<username>.github.io/2026-fwdays-rules-commands-skills-practice-right/`
+
+Workflow файл: `.github/workflows/deploy.yml`
+
+### Інші платформи
+
 - **Netlify:** Налаштовано в `netlify.toml`
 - **Vercel:** Налаштовано в `vercel.json`
 - **Output:** `dist/`
