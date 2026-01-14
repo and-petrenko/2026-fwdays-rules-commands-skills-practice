@@ -1,0 +1,13 @@
+# Claude Code local settings
+.claude/CLAUDE.local.md
+
+# Environment variables (API keys)
+.env
+.env.local
+
+# IDE
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

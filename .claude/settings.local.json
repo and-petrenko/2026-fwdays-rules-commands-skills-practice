@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(python .claude/skills/generate-slide-image/scripts/generate_image.py:*)",
+      "Skill(generate-slide-image)",
+      "Bash(mkdir:*)",
+      "Bash(pip install:*)"
+    ]
+  }
+}
